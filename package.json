@@ -1,0 +1,29 @@
+{
+  "name": "gemini-json-server",
+  "version": "0.0.1",
+  "description": "Plugin for starting up json-server when running tests with Gemini",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levonet/gemini-json-server.git"
+  },
+  "keywords": [
+    "gemini",
+    "gemini-plugin",
+    "json-server",
+    "testing"
+  ],
+  "author": "Pavlo Bashynskyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/levonet/gemini-json-server/issues"
+  },
+  "homepage": "https://github.com/levonet/gemini-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.11.2",
+    "q": "^1.5.0"
+  }
+}
