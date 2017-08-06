@@ -2,7 +2,7 @@
   "name": "gemini-json-server",
   "version": "0.0.1",
   "description": "Plugin for starting up json-server when running tests with Gemini",
-  "main": "index.js",
+  "main": "lib/plugin.js",
   "scripts": {
     "test": "mocha"
   },

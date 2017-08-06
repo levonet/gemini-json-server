@@ -12,17 +12,23 @@ npm install git+https://github.com/levonet/gemini-json-server.git
 
 Set the configuration to your `gemini` config file in `plugins` section:
 
-```yaml
-system:
-    plugins:
-        json-server:
-            enabled: true
-            port: 8080
-            host: 0.0.0.0
-            schema: db.json
-            routes: routes.json
-            static: .
-            readOnly: false
-            quiet: false
-            id: id
+```js
+module.exports = {
+    // ...
+    system: {
+        plugins: {
+            'json-server': {
+                enabled: true,
+                port: 8080,
+                host: '0.0.0.0',
+                schema: 'db.json',
+                routes: 'routes.json',
+                static: '.',
+                readOnly: false,
+                quiet: false,
+                id: 'id'
+            }
+        }
+    }
+};
 ```
